@@ -43,6 +43,10 @@ footer {
     align-items: center;
     justify-content: end;
 
+    p {
+        color: white;
+    }
+
     .hamb {
       color: white;
       font-size: 2.5rem;
@@ -71,7 +75,7 @@ footer {
   }
 
   h1 {
-    padding: 15px;
+    padding: 45px 15px 5px 15px ;
     margin-left: 10px;
     font-size: 1.52rem;
   }
@@ -81,7 +85,7 @@ footer {
   }
 
   .primText {
-    color: rgb(85, 7, 72);
+    color: rgb(126, 10, 25);
   }
 
   .content {
@@ -91,7 +95,7 @@ footer {
     position: absolute;
     p {
       padding: 8px 0 8px 25px;
-      font-size: 0.8rem;
+      font-size: 0.92rem;
     }
   }
 }
