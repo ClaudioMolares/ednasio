@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Anta";
+  src: url("../fonts/Anta-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../fonts/Rajdhani-SemiBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(73, 72, 72);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: white;
+}
+
+header {
+  width: 100vw;
+  height: 90px;
+  background-color: rgb(243, 98, 45);
+}
+
+main {
+  width: 100vw;
+  height: auto;
+}
+
+footer {
+  width: 100vw;
+  padding: 15px 0;
+  text-align: center;
+
+  img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+}

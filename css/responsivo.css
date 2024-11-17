@@ -1,54 +1,4 @@
-@font-face {
-    font-family: 'Anta';
-    src: url('../fonts/Anta-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Rajdhani' ;
-    src: url('../fonts/Rajdhani-SemiBold.ttf');
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-body {
-  color: white;
-  font-size: 16px;
-  background-color: rgb(73, 72, 72);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-a {
-  color: white;
-}
-
-header {
-  width: 100vw;
-  height: 90px;
-  background-color: rgb(243, 98, 45);
-}
-
-main {
-  width: 100vw;
-  height: auto;
-}
-
-footer {
-  width: 100vw;
-  padding: 15px 0;
-  text-align: center;
-
-  img {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-  }
-}
+@import url('./desktop.css');
 
 @media screen and (max-width: 412px) {
   .lateral {
@@ -120,7 +70,7 @@ footer {
       align-items: center;
       justify-content: center;
       border: 1px solid black;
-      font-family: 'Anta';
+      font-family: "Anta";
     }
 
     .hamb {
@@ -154,7 +104,7 @@ footer {
   main h1 {
     margin-left: 10px;
     font-size: 1.52rem;
-    font-family: 'Rajdhani';
+    font-family: "Rajdhani";
     padding: 45px 15px 5px 15px;
   }
 
