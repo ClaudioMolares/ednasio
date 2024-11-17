@@ -5,9 +5,14 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 .box {
   height: 100vh;
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 70vw;
   background-color: red;
 }
+
