@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(73, 72, 72);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: white;
+}
+
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(243, 98, 45);
+}
+
+main {
+  width: 100vw;
+  height: auto;
+}
+
+@media screen and (max-width: 412px) {
+  .horiz {
+    display: none;
+  }
+
+  body {
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: rgb(50, 55, 59);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .moldura {
+    width: 100%;
+    display: flex;
+
+    img {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+
+  h1 {
+    padding: 15px;
+    margin-left: 10px;
+    font-size: 1.52rem;
+  }
+
+  .content {
+    width: 300px;
+    p {
+      padding: 8px 0 8px 25px;
+      font-size: 0.8rem;
+    }
+  }
+}

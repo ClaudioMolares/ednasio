@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/responsivo.css" />
     <title>Responsivo</title>
-</head>
-<body>
-    <h1>Altura da tela: <span class="titulo"></span></h1>
-    <script>
-        const titulo = document.querySelector('.titulo');
-        titulo.innerText = window.innerHeight;
-    </script>
-</body>
+  </head>
+  <body>
+    <header>
+        <nav class="horiz">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projectos</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="box">
+            <h1>Exemplo de responsividade</h1>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolorem nulla alias, iusto repudiandae voluptatum, molestias eaque impedit consequuntur, nam modi repudiandae.</p></div>
+            <div class="moldura"><img src="../imgs/fmca2023.jpg" alt="feira"></div>
+        </div>
+        <div class="box">
+            <h1>Exemplo de responsividade</h1>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolorem nulla alias, iusto repudiandae voluptatum, molestias eaque impedit consequuntur, nam modi repudiandae.</p></div>
+            <div class="moldura"><img src="../imgs/ednasio.jpg" alt="feira"></div>
+        </div>
+        <div class="box">
+            <h1>Exemplo de responsividade</h1>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolorem nulla alias, iusto repudiandae voluptatum, molestias eaque impedit consequuntur, nam modi repudiandae.</p></div>
+            <div class="moldura"><img src="../imgs/ImagemW.jpg" alt="feira"></div>
+        </div>
+        <div class="box">
+            <h1>Exemplo de responsividade</h1>
+            <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolorem nulla alias, iusto repudiandae voluptatum, molestias eaque impedit consequuntur, nam modi repudiandae.</p></div>
+            <div class="moldura"><img src="../imgs/Imagem WhatsApp .jpg" alt="feira"></div>
+        </div>
+    </main>
+    <script src="../js/responsivo.js"></script>
+  </body>
 </html>
