@@ -55,10 +55,10 @@ h1 {
     height: 60%;
     display: grid;
     align-content: end;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     justify-content: center;
-    grid-template-rows: repeat(5, 90px);
-    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: repeat(5, 85px);
+    grid-template-columns: repeat(4, 85px);
   }
 
   button {
