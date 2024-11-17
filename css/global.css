@@ -56,8 +56,8 @@ h1 {
     display: grid;
     align-content: end;
     justify-content: center;
-    grid-template-rows: repeat(5, 75px);
-    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(5, 90px);
+    grid-template-columns: repeat(4, 90px);
   }
 
   button {
