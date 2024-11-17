@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -8,6 +9,7 @@
 main {
   width: 100vw;
   height: 100vh;
+  background-color: rgb(51, 49, 49);
 }
 
 h1 {
@@ -15,10 +17,68 @@ h1 {
   padding-top: 25px;
 }
 
-.box {
+.calculador {
   width: 420px;
   height: 100%;
+  display: flex;
   margin: 0 auto;
-  max-width: 80%;
-  background-color: red;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+
+  .display {
+    width: 100%;
+    height: 200px;
+
+    .saida, .resultado {
+        width: 100%;
+        height: 50%;
+        inset: none;
+        border: none;
+        outline: none;
+        font-size: 3rem;
+        text-align: end;
+    }
+    .saida {
+        background-color: rgb(85, 126, 38);
+    }
+
+    .resultado {
+        display: block;
+        background-color: rgb(134, 160, 160);
+    }
+  }
+
+  .keyPad {
+    gap: 15px;
+    width: 100%;
+    height: 72%;
+    display: grid;
+    align-content: end;
+    justify-content: center;
+    grid-template-rows: repeat(5, 90px);
+    grid-template-columns: repeat(4, 90px);
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: gray;
+  }
+}
+
+
+.green {
+    color: rgb(11, 240, 22) !important;
+}
+
+.igual {
+    background-color: rgb(20, 165, 27) !important;
+}
+
+.orang {
+    color: orangered !important;
 }
