@@ -24,7 +24,6 @@ h1 {
   margin: 0 auto;
   align-items: center;
   flex-direction: column;
-  border: 1px solid red;
 
   .display {
     width: 100%;
