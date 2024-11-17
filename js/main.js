@@ -3,15 +3,11 @@ const delet = document.getElementById("back");
 const key = document.querySelectorAll(".key");
 const result = document.querySelector(".resultado");
 
+out.value = window.innerWidth;
+result.value = window.innerHeight;
+
 delet.addEventListener("click", () => {
   out.value = out.value.substring(0, out.value.length - 1);
-  result.value = eval(
-    out.value
-      .replace(/\x/g, "*")
-      .replace(/\÷/g, "/")
-      .replace(/\,/g, ".")
-      .replace(/\%/g, "/100")
-  );
 });
 
 key.forEach((key) => {
