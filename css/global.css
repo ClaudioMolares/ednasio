@@ -27,7 +27,7 @@ h1 {
 
   .display {
     width: 100%;
-    height: 280px;
+    height: 260px;
 
     .saida, .resultado {
         width: 100%;
@@ -35,7 +35,7 @@ h1 {
         inset: none;
         border: none;
         outline: none;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: end;
     }
     .saida {
