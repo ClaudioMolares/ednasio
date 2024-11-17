@@ -98,3 +98,8 @@ h1 {
     color: #14a51b;
   }
 }
+
+a {
+  color: red;
+  text-decoration: none;
+}
