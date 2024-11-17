@@ -9,7 +9,7 @@
 main {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(51, 49, 49);
+  background-color: rgb(32, 32, 32);
 }
 
 h1 {
@@ -29,22 +29,25 @@ h1 {
     width: 100%;
     height: 260px;
 
-    .saida, .resultado {
-        width: 100%;
-        height: 50%;
-        inset: none;
-        border: none;
-        outline: none;
-        font-size: 5rem;
-        text-align: end;
+    .saida,
+    .resultado {
+      width: 100%;
+      height: 50%;
+      inset: none;
+      border: none;
+      outline: none;
+      color: white;
+      text-align: end;
+      background-color: inherit;
     }
     .saida {
-        background-color: rgb(85, 126, 38);
+      font-size: 4rem;
     }
 
     .resultado {
-        display: block;
-        background-color: rgb(134, 160, 160);
+      display: block;
+      font-weight: 0;
+      font-size: 3.5rem;
     }
   }
 
@@ -66,19 +69,18 @@ h1 {
     font-size: 1.5rem;
     border-radius: 50%;
     color: whitesmoke;
-    background-color: gray;
+    background-color: rgb(59, 59, 59);
   }
 }
 
-
 .green {
-    color: rgb(11, 240, 22) !important;
+  color: rgb(11, 240, 22) !important;
 }
 
 .igual {
-    background-color: rgb(20, 165, 27) !important;
+  background-color: rgb(20, 165, 27) !important;
 }
 
 .orang {
-    color: orangered !important;
+  color: orangered !important;
 }
