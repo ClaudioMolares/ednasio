@@ -41,16 +41,24 @@ footer {
   header {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 
-    p {
-        color: white;
+    .logo {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        margin-left: 25px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
     }
-
+   
     .hamb {
+      padding: 10px;
       color: white;
+      display: block;
       font-size: 2.5rem;
-      padding-right: 10px;
     }
   }
 
@@ -74,8 +82,8 @@ footer {
     }
   }
 
-  h1 {
-    padding: 45px 15px 5px 15px ;
+  main h1 {
+    padding: 45px 15px 5px 15px;
     margin-left: 10px;
     font-size: 1.52rem;
   }
@@ -85,16 +93,20 @@ footer {
   }
 
   .primText {
-    color: rgb(126, 10, 25);
+    color: rgb(0, 0, 0);
   }
 
   .content {
     left: 5px;
-    bottom: 10px;
+    bottom: 5px;
     width: 300px;
+    margin-left: 20px;
+    border-radius: 5px;
     position: absolute;
+    backdrop-filter: blur(5px);
+    background-color: rgba(104, 100, 100, 0.5);
     p {
-      padding: 8px 0 8px 25px;
+      padding: 8px 0 8px 15px;
       font-size: 0.92rem;
     }
   }
