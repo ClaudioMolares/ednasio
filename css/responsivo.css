@@ -3,6 +3,11 @@
     src: url('../fonts/Anta-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Rajdhani' ;
+    src: url('../fonts/Rajdhani-SemiBold.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -149,6 +154,7 @@ footer {
   main h1 {
     margin-left: 10px;
     font-size: 1.52rem;
+    font-family: 'Rajdhani';
     padding: 45px 15px 5px 15px;
   }
 
