@@ -29,8 +29,8 @@ main {
 }
 
 footer {
-  text-align: center;
   padding: 15px 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 412px) {
@@ -44,6 +44,7 @@ footer {
     justify-content: end;
 
     .hamb {
+      color: white;
       font-size: 2.5rem;
       padding-right: 10px;
     }
@@ -75,8 +76,19 @@ footer {
     font-size: 1.52rem;
   }
 
+  .box {
+    position: relative;
+  }
+
+  .primText {
+    color: rgb(85, 7, 72);
+  }
+
   .content {
+    left: 5px;
+    bottom: 10px;
     width: 300px;
+    position: absolute;
     p {
       padding: 8px 0 8px 25px;
       font-size: 0.8rem;
