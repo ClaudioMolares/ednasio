@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../fonts/Rajdhani-SemiBold.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(39, 36, 36);
+}
+
+h1 {
+    font-family: 'Rajdhani';
+    font-size: 5rem;
+}
+
+img {
+    width: 900px;
+}
