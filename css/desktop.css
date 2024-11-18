@@ -141,3 +141,18 @@ footer {
   }
 }
 
+@media screen and (min-widt: 700px) {
+  header, footer {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .moldura {
+    img {
+      max-width: 900px;
+      height: auto;
+    }
+  }
+}
