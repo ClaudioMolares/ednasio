@@ -1,6 +1,6 @@
 @import url("./desktop.css");
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 620px) {
   .horiz {
     display: none;
   }
@@ -76,9 +76,8 @@
 
   main {
     h1 {
-      text-align: left;
       margin-left: 10px;
-      font-size: 1.52rem;
+      font-size: 2.0rem;
       padding: 45px 15px 5px 15px;
     }
   }

@@ -24,15 +24,17 @@ div {
   justify-content: center;
 }
 
-@media screen and (max-width: 980px) {
-  h1 {
-    padding: 25px;
-    font-size: 1.7rem;
-    font-family: "Rajdhani";
+@media screen and (min-width: 621px) {
+  .moldura img {
+    max-width: 900px;
   }
 
-  div img {
-    width: 520px;
-    max-width: 800px;
+  .content {
+    left: 15%;
+    width: 400px;
+  }
+
+  main h1 {
+    font-size: 4rem;
   }
 }

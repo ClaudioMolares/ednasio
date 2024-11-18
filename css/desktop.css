@@ -144,3 +144,18 @@ footer img {
   height: 30px;
   margin-top: 10px;
 }
+
+@media screen and (min-width: 700px) {
+  .moldura img {
+    max-width: 900px;
+  }
+
+  .content {
+    left: 28%;
+    width: 400px;
+  }
+
+  main h1 {
+    font-size: 4rem;
+  }
+}
