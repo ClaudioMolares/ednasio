@@ -30,6 +30,11 @@ div {
 
 }
 
-div img {
-  max-width: 450px;
+
+@media screen and (max-width: 980px) {
+    
+    div img {
+      max-width: 450px;
+      width: 300px;
+    }
 }
