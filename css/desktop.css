@@ -145,7 +145,7 @@ footer img {
   margin-top: 10px;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 990px) {
   .moldura img {
     max-width: 900px;
   }
