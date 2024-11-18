@@ -39,73 +39,79 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(243, 98, 45);
+}
 
-  .menu {
-    display: none;
-  }
+.menu {
+  display: none;
+}
 
-  img {
-    width: 35px;
-    height: 35px;
-  }
+header img {
+  width: 35px;
+  height: 35px;
+}
 
-  .logo {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    margin-left: 25px;
-    border-radius: 50%;
-    font-family: "Anta";
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    background-color: rgba(39, 163, 39, 0.63);
-  }
-  .horiz {
-    padding-right: 18px;
-    ul {
-      display: flex;
-      li {
-        display: block;
-        padding: 15px;
-      }
-      a {
-        gap: 8px;
-        display: flex;
-        align-items: center;
-        img {
-          width: 25px;
-        }
-      }
-    }
-  }
+.logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-left: 25px;
+  border-radius: 50%;
+  font-family: "Anta";
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: rgba(39, 163, 39, 0.63);
+}
+
+.horiz {
+  padding-right: 18px;
+}
+
+.horiz ul {
+  display: flex;
+}
+
+.horiz ul li {
+  display: block;
+  padding: 15px;
+}
+
+.horiz a {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.horiz a img {
+  width: 25px;
 }
 
 main {
   width: 100vw;
   height: auto;
+}
 
-  .lateral {
-    display: none;
-  }
+main .lateral {
+  display: none;
+}
 
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-    padding: 120px 0 5px 0;
-    font-family: "Rajdhani";
-  }
+main h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 120px 0 5px 0;
+  font-family: "Rajdhani";
 }
 
 .moldura {
   width: 100%;
   display: flex;
-  img {
-    height: auto;
-    margin: 0 auto;
-    max-width: 900px;
-    border-radius: 10px;
-  }
+}
+
+.moldura img {
+  height: auto;
+  margin: 0 auto;
+  max-width: 900px;
+  border-radius: 10px;
 }
 
 .box {
@@ -122,37 +128,21 @@ main {
   position: absolute;
   backdrop-filter: blur(5px);
   background-color: rgba(104, 100, 100, 0.5);
+}
 
-  p {
-    font-size: 1.21rem;
-    padding: 8px 0 8px 15px;
-  }
+.content p {
+  font-size: 1.21rem;
+  padding: 8px 0 8px 15px;
 }
 
 footer {
   width: 100vw;
   padding: 15px 0;
   text-align: center;
-
-  img {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-  }
 }
 
-@media screen and (min-widt: 700px) {
-  header, footer {
-    img {
-      width: 50px;
-      height: 50px;
-    }
-  }
-
-  .moldura {
-    img {
-      max-width: 900px;
-      height: auto;
-    }
-  }
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
 }
